@@ -15,11 +15,12 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path
-from youtube.views import index, new_video
+from youtube.views import HomeView, new_video, LoginView
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('index/', index.as_view()),
+    path('', HomeView.as_view()),
+    path('login/', LoginView.as_view()),
     path('new_video/', new_video.as_view())
 ]
 
