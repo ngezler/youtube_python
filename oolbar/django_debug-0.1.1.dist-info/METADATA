@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: django-debug
+Version: 0.1.1
+Summary: Django application for monitoring the ORM queries
+Home-page: http://bitbucket.org/lorien/django-debug/
+Author: Grigoriy Petukhov
+Author-email: lorien@lorien.name
+License: BSD
+Keywords: django application debug orm sql
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Environment :: Web Environment
+Classifier: Framework :: Django
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Topic :: Utilities
+
+UNKNOWN
+
+
